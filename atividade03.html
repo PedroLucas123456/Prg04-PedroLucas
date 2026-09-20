@@ -4,34 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 3</title>
-    <link rel ="shortcut icon" href="image/favicon.ico" type ="image/x-icon">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <main class="container">
+    <header>
         <h1>Atividade 3 - HTML</h1>
+        <p>Exercícios e recursos do projeto FrontEnd</p>
 
-        <p>Esta página foi criada para demonstrar os requisitos da atividade.</p>
+        <nav id="menu" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="atividade03.html">Atividade 3</a></li>
+                <li><a href="sandbox.html">Sandbox</a></li>
+                <li><a href="paleta-cores.html">Paleta de cores</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h2>Lista de tecnologias</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+    <main class="container">
+        <section class="card">
+            <h2>Apresentação</h2>
+            <p>Esta página foi criada para demonstrar os requisitos da atividade.</p>
+        </section>
 
-        <h2>Imagem dinâmica</h2>
-        <img
-            src="image/imagem-dinamica.gif"
-            alt="Imagem dinâmica animada"
-            width="400"
-        >
+        <section class="card">
+            <h2>Lista de tecnologias</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
 
-    </main>
-    <section class="caixa">
-      <a href="index.html" class="botao">⬅ Voltar para página principal</a>
-    </section>
-  </main>
+        <section class="card">
+            <h2>Imagem dinâmica</h2>
+            <img
+                src="image/imagem-dinamica.gif"
+                alt="Imagem dinâmica animada"
+                width="400"
+                loading="lazy"
+            >
+        </section>
+
+        <section class="caixa">
+            <a href="index.html" class="botao">⬅ Voltar para página principal</a>
+        </section>
     </main>
 </body>
 </html>
